@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automationpractice Test Suite]">
+  <test thread-count="5" name="Automationpractice Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_003_WomensShopping">
+        <methods>
+          <include name="test_WomensTshirtShopping"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_003_WomensShopping -->
+    </classes>
+  </test> <!-- Automationpractice Test(failed) -->
+</suite> <!-- Failed suite [Automationpractice Test Suite] -->
