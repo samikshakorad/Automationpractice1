@@ -4,9 +4,9 @@
 	<test name="Automationpractice Test">
 	<parameter name="browser" value="chrome"/>
 		<classes>
-			<!--  <class name="testCases.TC_001_CreateAccountPage"></class>	-->
+			 <class name="testCases.TC_001_CreateAccountPage"></class>	
 			 <class name="testCases.TC_002_LoginPage"></class>
-			<!--<class name="testCases.TC_003_WomensShopping"></class>	-->
+			<class name="testCases.TC_003_WomensShopping"></class>	
 		</classes>	
 	</test>
 </suite>
